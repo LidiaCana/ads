@@ -8,8 +8,10 @@ import "../styles/index.css";
 
 export default function RootLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params: string;
 }) {
   return (
     <html suppressHydrationWarning lang="en">
@@ -21,9 +23,8 @@ export default function RootLayout({
 
       <body className="dark:bg-black">
         <Providers>
-          <Header />
           {children}
-          <Footer />
+
           <ScrollToTop />
         </Providers>
       </body>

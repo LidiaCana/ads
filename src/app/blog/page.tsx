@@ -1,8 +1,9 @@
 import SingleBlog from "@/components/Blog/SingleBlog";
 import blogData from "@/components/Blog/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import { ComponentProps } from "@/types/common";
 
-const Blog = () => {
+const Blog = async ({ lang }: ComponentProps) => {
   return (
     <>
       <Breadcrumb

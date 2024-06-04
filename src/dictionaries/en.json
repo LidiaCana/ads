@@ -1,0 +1,106 @@
+{
+    "menu": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "testimonials": "Testimonials",
+      "technologies":"Technologies",
+      "contact":"Contact us"
+
+    },
+"hero":{
+    "title":"We are a digital agency focused on your growth.",
+    "subTitle": "Stop losing customers with traditional marketing efforts. Your buyers are now on the Internet. Do we find them together?",
+    "btnLeft":"Read more",
+    "btnRight": "Contact us"
+
+  },
+  "services":{
+    "title":"Our Services",
+    "subtitle": "Achieve anything you want.",
+    "service1Title":"Web Design & Development",
+    "service1Desc":"With a nice-looking website design, two things are achieved: good aesthetics and an excellent user experience. Build a website or mobile app to sell 24/7.​",
+    "service2Title":"Graphic Design",
+    "service2Desc":"We specialize in creating unique, eye-catching designs that effectively communicate your brand's message and captivate your audience. Whether you need a new logo, marketing materials, web graphics, or complete brand identity, our talented designers are here to bring your ideas to life.",
+    "service3Title":"Social Media Marketing",
+    "service3Desc":"What can you achieve with the appropriate strategies on social media? A solid community which is willing to pay your products or services.",
+    "service4Title":"Automation & Chatbots",
+    "service4Desc":"Our services are designed to optimize efficiency, reduce manual workload, and provide a seamless user experience. Whether you’re looking to automate repetitive tasks, improve customer support, or integrate intelligent chatbots into your platforms, our expert team is here to help you leverage the power of automation and AI.",
+    "service5Title":"Brand Design",
+    "service5Desc":"A strong brand fosters loyalty. When customers have positive experiences with your brand, they're more likely to remain loyal and even become brand advocates, recommending your products or services to others.",
+    "service6Title":"E-commerce Development",
+    "service6Desc":"We specialize in building robust, scalable, and user-friendly e-commerce platforms that drive sales and enhance customer satisfaction. Whether you are a startup or an established business, our expert team is dedicated to creating tailored e-commerce solutions that meet your unique needs and objectives."
+  },
+  "whyUs":{
+    "title":"Why us?",
+    "description":"Our team of digital experts brings a wealth of experience across various industries and disciplines. Elevate your brand and achieve your business goals with our comprehensive digital agency services. Here’s why you should partner with us:",
+    "reason1":"Experienced Team",
+    "reason2":"Customized Solutions",
+    "reason3":"Proven Track Record",
+    "reason4":"Innovative Approach",
+    "reason5":"Comprehensive Services",
+    "reason6":"Transparency and Communication"
+  },
+  "technologies":{
+    "title":"Technologies & Partners"
+  },
+  "mission":{
+    "title":"Mission",
+    "description": "Our mission is to empower businesses of all sizes to thrive in the digital age by providing comprehensive marketing solutions and innovative software development services. We are dedicated to understanding our clients' unique needs and delivering tailor-made strategies and products that drive growth, enhance brand visibility, and foster lasting relationships with their audiences."
+  }
+  ,
+
+  "vision":
+  {
+"title": "Vision",
+  "description":"Our vision is to pioneer the intersection of creativity and technology, redefining digital experiences and empowering businesses worldwide. We envision a future where innovative marketing strategies seamlessly integrate with cutting-edge software solutions, delivering unparalleled value and impact."
+  },
+
+  "committed":
+  {"description":"We are dedicated to delivering comprehensive marketing solutions and innovative software development services that exceed expectations and drive tangible results. Our unwavering dedication to understanding our clients' unique needs fuels our passion for crafting tailor-made strategies and products that propel their success forward.",
+"title": "committed"
+},
+  "testimonials":{
+    "title":"What Our Users Says",
+    "subtitle":"There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
+    "testimonial1":"From the moment we engaged with their team, we knew we were in good hands. They took the time to truly understand our brand and objectives, and the result was beyond our expectations.",
+    "testimonial2":"The website they developed for us not only looks stunning but also functions seamlessly, providing our customers with an intuitive and engaging experience. The attention to detail and the level of craftsmanship they brought to every aspect of the project was truly remarkable.",
+    "testimonial3":"The logo they created for my brand perfectly captures the essence of who we are and what we stand for. It's unique, memorable, and has become the cornerstone of our identity. Not only that, but they also designed a range of banners and other marketing materials that tie everything together seamlessly."
+  },
+  "pricing":{
+    "title":"Popular package",
+    "subtitle":"Essentials Package is specifically designed for businesses looking to establish a strong and memorable brand identity. This package provides all the essential branding elements that a small business needs to stand out in a competitive market.",
+    "btnTxt":"Start",
+    "pack1":"Lite",
+    "pack1Description":"Essentials Package offers small businesses everything they need to create a professional and cohesive brand identity. ",
+    "pack2":"Basic",
+    "pack2Description":"Comprehensive Digital Package is the perfect solution for businesses looking to elevate their online presence to the next level.",
+    "pack3":"Plus",
+    "pack3Description":"Our E-Commerce Launch package is designed for businesses looking to make a seamless transition to the digital marketplace.",
+    "prod1": "Logo",
+    "prod2": "Business card",
+    "prod3": "Flyer",
+    "prod4": "Letterhead",
+    "prod5": "Digital signature",
+    "prod6": "Website",
+    "prod7": "Chatbot",
+    "prod8": "Mobile application",
+    "prod9": "Virtual agent",
+    "prod10": "E-commerce",
+    "prod11": "100 T-shirts",
+    "prod12": "Email"
+  },
+  "contact":{
+    "title": "Need Help? Write us!",
+    "subTitle": "Our support team will get back to you ASAP via email.",
+    "label1": "Your Name",
+    "placeholder1":"Enter your name",
+    "label2": "Your email",
+    "placeholder2":"Enter your email",
+    "label3": "Message",
+    "placeholder3":"Enter your message",
+    "btn": "Sent",
+    "title2": "Our you can write us to:",
+    "subTitle2": "Our support team will get back to you ASAP"
+  }
+ }

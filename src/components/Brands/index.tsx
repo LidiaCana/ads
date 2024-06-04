@@ -1,6 +1,9 @@
 import { Brand } from "@/types/brand";
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+import { ComponentProps } from "@/types/common";
+import { getDictionary } from "../../app/dictionaries";
+import { Dictionary } from "@/types/dictionary";
 
 const brandsData: Brand[] = [
   {
@@ -35,12 +38,13 @@ const brandsData: Brand[] = [
   },
 ];
 
-const Brands = () => {
+const Brands = async ({ lang }: ComponentProps) => {
+  const { technologies } = (await getDictionary(lang)) as Dictionary;
   return (
     <section className="pt-16">
       <div className="container">
         <SectionTitle
-          title="Technologies & Partners"
+          title={technologies.title}
           paragraph=""
           center
           mb="80px"

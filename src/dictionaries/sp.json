@@ -1,0 +1,103 @@
+{
+  "menu": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "services": "Servicios",
+    "testimonials": "Testimonios",
+    "technologies": "Tecnologías",
+    "contact": "Contáctanos"
+  },
+  "hero": {
+    "title": "Somos una agencia digital enfocada en tu crecimiento.",
+    "subTitle": "Deja de perder clientes con esfuerzos de marketing tradicionales. Tus compradores ahora están en Internet. ¿Los encontramos juntos?",
+    "btnLeft": "Leer más",
+    "btnRight": "Contáctanos"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Logra todo lo que desees.",
+    "service1Title": "Diseño y Desarrollo Web",
+    "service1Desc": "Con un diseño de sitio web atractivo, se logran dos cosas: buena estética y una excelente experiencia de usuario. Crea un sitio web o una aplicación móvil para vender 24/7.",
+    "service2Title": "Diseño Gráfico",
+    "service2Desc": "Nos especializamos en crear diseños únicos y llamativos que comuniquen eficazmente el mensaje de tu marca y cautiven a tu audiencia. Ya sea que necesites un nuevo logo, materiales de marketing, gráficos web o una identidad de marca completa, nuestros talentosos diseñadores están aquí para dar vida a tus ideas.",
+    "service3Title": "Marketing en Redes Sociales",
+    "service3Desc": "¿Qué puedes lograr con las estrategias adecuadas en redes sociales? Una comunidad sólida que esté dispuesta a pagar por tus productos o servicios.",
+    "service4Title": "Automatización y Chatbots",
+    "service4Desc": "Nuestros servicios están diseñados para optimizar la eficiencia, reducir la carga de trabajo manual y proporcionar una experiencia de usuario fluida. Ya sea que busques automatizar tareas repetitivas, mejorar el soporte al cliente o integrar chatbots inteligentes en tus plataformas, nuestro equipo de expertos está aquí para ayudarte a aprovechar el poder de la automatización y la IA.",
+    "service5Title": "Diseño de Marca",
+    "service5Desc": "Una marca fuerte fomenta la lealtad. Cuando los clientes tienen experiencias positivas con tu marca, es más probable que permanezcan leales e incluso se conviertan en defensores de la marca, recomendando tus productos o servicios a otros.",
+    "service6Title": "Desarrollo de Comercio Electrónico",
+    "service6Desc": "Nos especializamos en construir plataformas de comercio electrónico robustas, escalables y fáciles de usar que impulsan las ventas y mejoran la satisfacción del cliente. Ya sea que seas una startup o un negocio establecido, nuestro equipo de expertos está dedicado a crear soluciones de comercio electrónico adaptadas a tus necesidades y objetivos únicos."
+  },
+  "whyUs": {
+    "title": "¿Por qué nosotros?",
+    "description": "Nuestro equipo de expertos digitales aporta una gran experiencia en diversas industrias y disciplinas. Eleva tu marca y alcanza tus objetivos comerciales con nuestros servicios integrales de agencia digital. Aquí tienes por qué deberías asociarte con nosotros:",
+    "reason1": "Equipo Experimentado",
+    "reason2": "Soluciones Personalizadas",
+    "reason3": "Historial Comprobado",
+    "reason4": "Enfoque Innovador",
+    "reason5": "Servicios Integrales",
+    "reason6": "Transparencia y Comunicación"
+  },
+  "technologies": {
+    "title": "Tecnologías y Socios"
+  },
+ 
+  "mission":
+  {
+    "title":"Mision",
+    "description":"Nuestra misión es empoderar a empresas de todos los tamaños para prosperar en la era digital proporcionando soluciones de marketing integrales y servicios innovadores de desarrollo de software. Nos dedicamos a comprender las necesidades únicas de nuestros clientes y a ofrecer estrategias y productos a medida que impulsen el crecimiento, mejoren la visibilidad de la marca y fomenten relaciones duraderas con sus audiencias."
+  },
+  "vision": {
+    "title":"Vision",
+    "description":"Nuestra visión es liderar la intersección de la creatividad y la tecnología, redefiniendo las experiencias digitales y empoderando a empresas en todo el mundo. Imaginamos un futuro donde las estrategias de marketing innovadoras se integren perfectamente con soluciones de software de vanguardia, ofreciendo un valor e impacto inigualables."
+},
+"committed": {
+  "title":"Proposito",
+  "description":"Estamos dedicados a ofrecer soluciones de marketing integrales y servicios innovadores de desarrollo de software que superen las expectativas y generen resultados tangibles. Nuestra dedicación inquebrantable para comprender las necesidades únicas de nuestros clientes alimenta nuestra pasión por crear estrategias y productos a medida que impulsen su éxito hacia adelante."
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros usuarios",
+    "subtitle": "Existen muchas variaciones de pasajes de Lorem Ipsum disponibles, pero la mayoría han sufrido alteraciones de alguna forma.",
+    "testimonial1": "Desde el momento en que nos comprometimos con su equipo, supimos que estábamos en buenas manos. Se tomaron el tiempo para entender verdaderamente nuestra marca y objetivos, y el resultado superó nuestras expectativas.",
+    "testimonial2": "El sitio web que desarrollaron para nosotros no solo se ve impresionante, sino que también funciona sin problemas, proporcionando a nuestros clientes una experiencia intuitiva y atractiva. La atención al detalle y el nivel de artesanía que aportaron a cada aspecto del proyecto fue realmente notable.",
+    "testimonial3": "El logo que crearon para mi marca captura perfectamente la esencia de quiénes somos y lo que representamos. Es único, memorable y se ha convertido en la piedra angular de nuestra identidad. Además, diseñaron una serie de banners y otros materiales de marketing que unen todo de manera perfecta."
+  },
+  "pricing": {
+    "title": "Nuestros Paquetes",
+    "subtitle": "El Paquete Esencial está diseñado específicamente para negocios que buscan establecer una identidad de marca fuerte y memorable. Este paquete proporciona todos los elementos de branding esenciales que una pequeña empresa necesita para destacarse en un mercado competitivo.",
+    "btnTxt":"Empezar",
+    "pack1": "Lite",
+    "pack1Description": "El Paquete Esencial ofrece a las pequeñas empresas todo lo que necesitan para crear una identidad de marca profesional y coherente.",
+    "pack2": "Básico",
+    "pack2Description": "El Paquete Digital Integral es la solución perfecta para empresas que desean elevar su presencia en línea al siguiente nivel.",
+    "pack3": "Plus",
+    "pack3Description": "Nuestro paquete Plus Electrónico está diseñado para empresas que buscan una transición sin problemas al mercado digital.",
+    "prod1": "Logo",
+    "prod2": "Tarjeta de presentación",
+    "prod3": "Hoja volantes",
+    "prod4": "Papel membretado",
+    "prod5": "Firma digital",
+    "prod6": "Página web",
+    "prod7": "Chatbot",
+    "prod8": "Agente virtual",
+    "prod9": "Aplicación móvil",
+    "prod10": "Comercio electrónico",
+    "prod11": "Diseño de Camisetas",
+    "prod12": "Correo electrónico"
+  },
+  "contact": {
+    "title": "¿Necesitas ayuda? ¡Escríbenos!",
+    "subTitle": "Nuestro equipo de soporte te responderá lo antes posible por correo electrónico.",
+    "label1": "Tu nombre",
+    "placeholder1": "Ingresa tu nombre",
+    "label2": "Tu correo electrónico",
+    "placeholder2": "Ingresa tu correo electrónico",
+    "label3": "Mensaje",
+    "placeholder3": "Ingresa tu mensaje",
+    "btn": "Enviar",
+    "title2": "O también puedes escribirnos a:",
+    "subTitle2": "Nuestro equipo de soporte te responderá lo antes posible"
+}
+
+}

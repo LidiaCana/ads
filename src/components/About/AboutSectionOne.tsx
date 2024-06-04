@@ -1,5 +1,8 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+import { ComponentProps } from "@/types/common";
+import { getDictionary } from "../../app/dictionaries";
+import { Dictionary } from "@/types/dictionary";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -7,7 +10,8 @@ const checkIcon = (
   </svg>
 );
 
-const AboutSectionOne = () => {
+const AboutSectionOne = async ({ lang }: ComponentProps) => {
+  const { whyUs } = (await getDictionary(lang)) as Dictionary;
   const List = ({ text }: { text: string }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
@@ -24,11 +28,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Why us?"
-                paragraph="Our team of digital experts brings a wealth of experience across
-                various industries and disciplines. Elevate your brand and achieve
-                your business goals with our comprehensive digital agency services.
-                Here’s why you should partner with us:"
+                title={whyUs.title}
+                paragraph={whyUs.description}
                 mb="44px"
               />
 
@@ -38,15 +39,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Experienced Team" />
-                    <List text="Customized Solutions" />
-                    <List text="Proven Track Record" />
+                    <List text={whyUs.reason1} />
+                    <List text={whyUs.reason2} />
+                    <List text={whyUs.reason3} />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Innovative Approach" />
-                    <List text="Comprehensive Services" />
-                    <List text="Transparency and Communication" />
+                    <List text={whyUs.reason4} />
+                    <List text={whyUs.reason5} />
+                    <List text={whyUs.reason6} />
                   </div>
                 </div>
               </div>

@@ -1,12 +1,17 @@
+import { ComponentProps } from "@/types/common";
 import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
-import featuresData from "./featuresData";
+import getServices from "./featuresData";
+import { getDictionary } from "../../app/dictionaries";
+import { Dictionary } from "@/types/dictionary";
 
-const Features = () => {
+const Features = async ({ lang }: ComponentProps) => {
+  const dict = (await getDictionary(lang)) as Dictionary;
+  const featuresData = await getServices(lang);
   return (
     <>
       <section
-        id="features"
+        id="services"
         className="bg-primary/[.03] py-16 md:py-20 lg:py-28"
       >
         <div className="container">

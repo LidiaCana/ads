@@ -1,44 +1,46 @@
 import { Testimonial } from "@/types/testimonial";
 import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
+import { ComponentProps } from "@/types/common";
 
-const testimonialData: Testimonial[] = [
-  {
-    id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
-    star: 5,
-  },
-  {
-    id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
-    star: 5,
-  },
-  {
-    id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
-    star: 5,
-  },
-];
+import { getDictionary } from "../../app/dictionaries";
+import { Dictionary } from "@/types/dictionary";
 
-const Testimonials = () => {
+const Testimonials = async ({ lang }: ComponentProps) => {
+  const { testimonials } = (await getDictionary(lang)) as Dictionary;
+  const testimonialData: Testimonial[] = [
+    {
+      id: 1,
+      name: "Musharof Chy",
+      designation: "Founder @TailGrids",
+      content: testimonials.testimonial1,
+      image: "/images/testimonials/auth-01.png",
+      star: 5,
+    },
+    {
+      id: 2,
+      name: "Devid Weilium",
+      designation: "Founder @UIdeck",
+      content: testimonials.testimonial2,
+      image: "/images/testimonials/auth-02.png",
+      star: 5,
+    },
+    {
+      id: 3,
+      name: "Lethium Frenci",
+      designation: "Founder @Lineicons",
+      content: testimonials.testimonial3,
+      image: "/images/testimonials/auth-03.png",
+      star: 5,
+    },
+  ];
+
   return (
     <section className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title={testimonials.title}
+          paragraph={testimonials.subtitle}
           center
         />
 
